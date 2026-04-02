@@ -191,8 +191,8 @@ func (c *C[T]) Len() int {
 	return n
 }
 
-// Keys returns the keys of all live (non-expired) entries.
-// The order is non-deterministic.
+// Keys returns the keys of all live (non-expired) entries, sorted
+// in ascending lexicographic order.
 func (c *C[T]) Keys() []string {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
