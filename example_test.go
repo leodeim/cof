@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/leonidasdeim/cof"
+	"github.com/leodeim/cof"
 )
 
 func ExampleInit() {

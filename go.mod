@@ -1,4 +1,4 @@
-module github.com/leonidasdeim/cof
+module github.com/leodeim/cof
 
 go 1.23.0
 

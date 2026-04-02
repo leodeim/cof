@@ -4,14 +4,14 @@
 
 <div align="center">
 
-  <a href="">![Tests](https://github.com/leonidasdeim/cof/actions/workflows/go.yml/badge.svg)</a>
-  <a href="">![Code Scanning](https://github.com/leonidasdeim/cof/actions/workflows/codeql.yml/badge.svg)</a>
-  <a href="https://codecov.io/gh/leonidasdeim/cof" > 
-    <img src="https://codecov.io/gh/leonidasdeim/cof/branch/master/graph/badge.svg?token=3275GV3OGX"/> 
+  <a href="">![Tests](https://github.com/leodeim/cof/actions/workflows/go.yml/badge.svg)</a>
+  <a href="">![Code Scanning](https://github.com/leodeim/cof/actions/workflows/codeql.yml/badge.svg)</a>
+  <a href="https://codecov.io/gh/leodeim/cof" > 
+    <img src="https://codecov.io/gh/leodeim/cof/branch/master/graph/badge.svg?token=3275GV3OGX"/> 
   </a>
-  <a href="">![Report](https://goreportcard.com/badge/github.com/leonidasdeim/cof)</a>
-  <a href="">![Release](https://badgen.net/github/release/leonidasdeim/cof)</a>
-  <a href="">![Releases](https://badgen.net/github/releases/leonidasdeim/cof)</a>
+  <a href="">![Report](https://goreportcard.com/badge/github.com/leodeim/cof)</a>
+  <a href="">![Release](https://badgen.net/github/release/leodeim/cof)</a>
+  <a href="">![Releases](https://badgen.net/github/releases/leodeim/cof)</a>
   
 </div>
 
@@ -30,7 +30,7 @@ A lightweight, generic, thread-safe in-memory key-value cache for Go with TTL-ba
 ## Install
 
 ```
-go get github.com/leonidasdeim/cof
+go get github.com/leodeim/cof
 ```
 
 Requires Go 1.23+.
@@ -44,7 +44,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/leonidasdeim/cof"
+    "github.com/leodeim/cof"
 )
 
 func main() {
